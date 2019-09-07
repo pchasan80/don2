@@ -1,0 +1,86 @@
+/* ------------------------------------------------------- */
+/* Large devices (desktops, less than 1200px)
+/* ------------------------------------------------------- */
+@media (max-width: 1199px) {
+
+}
+
+
+/* ------------------------------------------------------- */
+/* Medium devices (tablets, less than 992px)
+/* ------------------------------------------------------- */
+@media (max-width: 991px) {
+	.title-defualt h2 {
+		font-size: 40px;
+	}
+	.title-defualt p {
+		font-size: 20px;
+	}
+	.title-alt h2 {
+		font-size: 40px;
+		line-height: 50px;
+	}
+	h3 {
+		font-size: 25px;
+	}
+	.hero-text h1 {
+		font-size: 70px;
+	}
+	.hero-text p {
+		font-size: 25px;
+	}
+	.navbar-light .navbar-toggler {
+		color: #ddd;
+	}
+	.navbar-light .navbar-toggler i {
+		color: #ddd;
+	}
+
+	#footer .justify-content-end {
+	    -ms-flex-pack: center!important;
+	    justify-content: center!important;
+	}
+	.copyright-text p {
+		text-align: center;
+	}
+
+
+}
+
+
+/* ------------------------------------------------------- */
+/* Small devices (landscape phones, less than 768px)
+/* ------------------------------------------------------- */
+@media (max-width: 767px) {
+
+}
+
+
+/* ------------------------------------------------------- */
+/* Extra small devices (portrait phones, less than 576px)
+/* ------------------------------------------------------- */
+@media (max-width: 575px) {
+	section {
+		padding: 50px 0;
+	}
+	.title-defualt h2 {
+		font-size: 30px;
+		line-height: 50px;
+	}
+	.title-defualt p {
+		font-size: 18px;
+		margin-top: 0;
+		margin-bottom: 0;
+	}
+	.title-alt h2 {
+		font-size: 30px;
+		line-height: 50px;
+	}
+	.title-alt p {
+		font-size: 18px;
+		margin-bottom: 0;
+	}
+	.hero-text h1 {
+		font-size: 40px;
+	}
+}
